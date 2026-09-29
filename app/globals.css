@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css");
+
+:root {
+  font-size: 20px;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+input {
+  outline: none;
+  caret-color: #0d6efd;
+}
+
+button {
+  cursor: pointer;
+  letter-spacing: 0.6px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#totalCharge {
+  font-size: 22px;
+}
+
+#download {
+  font-size: 19px;
+  letter-spacing: 0.6px;
+}
+
+.copyright {
+  font-size: 15px;
+  text-align: end;
+  color: #0d6efd;
+}
+
+header > span {
+  margin-left: 4rem;
+}
+
+.page {
+  padding-top: 5rem;
+}
